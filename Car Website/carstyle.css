@@ -1,0 +1,205 @@
+body {
+	background: white;
+	margin: 0;
+}
+
+nav ul {
+	background-color: black;
+	display: table;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+
+}
+
+li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: cursive;
+	font-size: small;
+	width: 80px;
+
+
+}
+
+li a:hover {
+	
+	color: gold;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	margin-right: 50px;
+	margin-top: 25px;
+
+}
+
+header {
+	
+	text-align: center;
+	text-transform: uppercase;
+	font-size: small;
+	font-weight: bold;
+	font-family: cursive;
+	color: black;
+	
+}
+
+.ImageSection{
+	width: 100%;
+	margin: 0;
+
+	
+}
+
+.image {
+	background-image: url("Car1.JPG");
+	background-size: cover;
+	height: 1000px;
+	width: 100%;
+
+
+	
+
+}
+
+
+p.caption{
+display: block;
+font-family: 'Times New Roman', Times, serif;
+font-size: 40px;
+font-style: italic;
+line-height: 40px;
+margin-left: 20px;
+padding: 10px;
+position: relative;
+top: 10%;
+width: 20%;
+background-color: black;
+color: gold;
+opacity: 0.75;
+}
+
+
+.Intro{
+	background-color: gold;
+	box-sizing: border-box;
+	padding: 40px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	
+}
+
+img {
+
+	display: block;
+	margin-left: 0;
+	margin-right: 0;
+	
+
+}
+
+iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.uppercase h1, li, th, h2{
+	text-transform: uppercase;
+}
+
+.font-family h1, li, p, th, td, h2{
+	font-family: cursive;
+}
+
+p{
+	color: black;
+	text-align: center;
+	margin: 20px;
+
+
+}
+
+h2{
+	color: black;
+	background-color: gold;
+	text-align: center;
+	margin: 30px;
+	font-size: 20px;
+}
+
+table{
+	margin: 50px auto;
+	padding: 10px;
+}
+
+td, th{
+	color: black;
+	text-align: center;
+	border: 3px solid black;
+	margin: 50px;
+	padding: 10px;
+
+}
+
+th{
+	background-color: gold;
+}
+
+
+
+footer{
+	width: 100%;
+	padding: 10px;
+	position: bottom;
+	margin-top: 100px;
+	background-color: gold;
+
+}
+
+
+div.gallery{
+	
+	margin: 10px 10px;
+	display: inline-block
+}
+
+.social{
+	background-color: gold;
+	width: inherit;
+}
+
+
+
+h1{
+	text-align: center;
+	font-family: cursive;
+}
+
+h2.Bronze{
+	background-color: #cd7f32;
+}
+
+h2.Silver{
+	background-color: silver;
+}
+
+h2.Gold{
+	background-color: gold;
+}
+
+li {
+	text-transform: none;
+}
